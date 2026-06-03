@@ -1,224 +1,1031 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Pawtricia's Dog Grooming | All Breeds & Cats — Barrie, ON</title>
-<meta name="description" content="Pawtricia's Dog Grooming — 15+ years grooming all breeds AND cats in Barrie, ON. Home-based salon, 4.9★ rated. Call (416) 857-5300.">
-<meta property="og:title" content="Pawtricia's Dog Grooming | Barrie ON">
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&family=Gaegu&family=Nunito:wght@400;
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">600;700;800&display=swap');
-:root{--bg:#fffbf7;--bg2:#fff5ec;--card:#fff;--text:#3d2b1a;--t2:#7a5c3e;--t3:#b8946e;--accent:#f1641e;--a2:#d45614;--alight:#fff0e5;--aglow:rgba(241,100,30,.1);--bdr:#f0ddd0;--bdr2:#e0c8b0;--grad:linear-gradient(135deg,#f1641e,#f58a3c);--r:16px;--r2:24px;--sh:0 2px 16px rgba(0,0,0,.04);--sh2:0 6px 32px rgba(0,0,0,.06);--ff:'Nunito',sans-serif;--ff2:'Gaegu',cursive}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;font-size:16px}
-body{font-family:var(--ff);background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
-a{text-decoration:none;color:inherit}ul{list-style:none}
-.container{max-width:1100px;margin:0 auto;padding:0 28px}
-.nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,251,247,.9);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:2px solid var(--bdr);transition:all .3s}
-.nav.scrolled{background:rgba(255,251,247,.97);box-shadow:0 2px 12px rgba(0,0,0,.04)}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;height:70px}
-.logo{display:flex;align-items:center;gap:8px;font-weight:800;font-size:1.2rem}
-.logo-icon{font-size:1.6rem}
-.logo-accent{color:var(--accent)}
-.nav-links{display:flex;gap:28px}
-.nav-links a{font-size:.88rem;font-weight:600;color:var(--t2);transition:color .2s}
-.nav-links a:hover{color:var(--accent)}
-.btn-nav{background:var(--accent);color:#fff;padding:10px 22px;border-radius:50px;font-weight:700;font-size:.88rem;transition:all .2s}
-.btn-nav:hover{background:var(--a2);transform:scale(1.04)}
-.mobile-toggle{display:none;flex-direction:column;gap:5px;background:0;border:0;cursor:pointer}
-.mobile-toggle span{display:block;width:24px;height:2.5px;background:var(--text);border-radius:3px}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:15px 34px;border-radius:50px;font-weight:700;font-size:1rem;cursor:pointer;transition:all .3s;border:0;justify-content:center}
-.btn-primary{background:var(--accent);color:#fff;box-shadow:0 4px 20px var(--aglow)}
-.btn-primary:hover{background:var(--a2);transform:scale(1.03)}
-.btn-outline{background:0;color:var(--text);border:2.5px solid var(--bdr2);border-radius:50px}
-.btn-outline:hover{border-color:var(--accent);color:var(--accent)}
-.btn-lg{padding:17px 42px;font-size:1.05rem}
-.btn-full{width:100%}
-.hero{position:relative;min-height:100vh;display:flex;align-items:center;background:linear-gradient(180deg,#fffbf7 0%,#fff0e0 50%,#ffe8d0 100%);overflow:hidden;padding:120px 0 80px}
-.hero::after{content:'1b01b01b01b01b01b01b01b01b01b0'; font-family:'Font Awesome 6 Free'; font-weight:900;position:absolute;bottom:20px;right:-20px;font-size:3rem;opacity:.08;white-space:nowrap;pointer-events:none;transform:rotate(-15deg)}
-.hero-content{position:relative;z-index:1;max-width:600px}
-.hero-badge{display:inline-flex;align-items:center;gap:6px;padding:8px 20px;margin-bottom:24px;background:var(--alight);color:var(--accent);border-radius:50px;font-size:.84rem;font-weight:700}
-.hero-badge span{font-size:1.1rem}
-.hero-title{font-size:clamp(2.6rem,5vw,4rem);font-weight:800;line-height:1.12;margin-bottom:22px}
-.text-accent{color:var(--accent)}
-.hero-subtitle{font-size:1.12rem;color:var(--t2);max-width:490px;margin-bottom:38px;line-height:1.8}
-.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:56px}
-.hero-stats{display:flex;gap:36px;flex-wrap:wrap}
-.stat{text-align:center}
-.stat-number{display:block;font-size:2rem;font-weight:800;color:var(--accent)}
-.stat-label{font-size:.84rem;color:var(--t3);font-weight:600}
-section{padding:88px 0}
-.section-header{text-align:center;margin-bottom:54px}
-.section-badge{display:inline-block;padding:7px 18px;margin-bottom:16px;background:var(--alight);color:var(--accent);border-radius:50px;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
-.section-header h2{font-size:2.4rem;font-weight:800;margin-bottom:12px}
-.section-header p{color:var(--t2);font-size:1rem;max-width:500px;margin:0 auto}
-.services{background:var(--bg2)}
-.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.service-card{background:var(--card);border:2px solid var(--bdr);border-radius:var(--r2);padding:30px 24px;text-align:center;transition:all .3s}
-.service-card:hover{border-color:var(--accent);transform:translateY(-4px);box-shadow:0 8px 30px var(--aglow)}
-.service-icon{font-size:2.6rem;margin-bottom:12px}
-.service-card h3{font-size:1.1rem;font-weight:800;margin-bottom:8px}
-.service-card p{color:var(--t2);font-size:.86rem;line-height:1.7}
-.cats{background:linear-gradient(135deg,#fef3c7,#fde68a);padding:40px 0;text-align:center}
-.cats-inner{max-width:500px;margin:0 auto}
-.cats-inner h2{font-size:1.6rem;font-weight:800;margin-bottom:8px}
-.cats-inner p{color:var(--t2)}
-.about{background:var(--bg)}
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
-.about-content h2{font-size:2.2rem;font-weight:800;margin-bottom:16px}
-.about-content p{color:var(--t2);margin-bottom:12px;line-height:1.8}
-.about-features{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
-.feature{color:var(--t2);font-size:.86rem;font-weight:600}
-.about-placeholder{background:var(--bg2);border:3px dashed var(--bdr);border-radius:var(--r2);height:340px;display:flex;align-items:center;justify-content:center;font-size:4rem;color:var(--t3)}
-.testimonials{background:var(--bg2)}
-.testimonial-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.testimonial-card{background:var(--card);border:2px solid var(--bdr);border-radius:var(--r2);padding:26px 22px;box-shadow:var(--sh)}
-.stars{font-size:.95rem;margin-bottom:8px}
-.testimonial-card p{color:var(--t2);font-size:.9rem;line-height:1.7;margin-bottom:12px}
-.testimonial-author{color:var(--t3);font-size:.8rem;font-weight:700}
-.contact{background:var(--bg)}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
-.contact-info h2{font-size:2.2rem;font-weight:800;margin-bottom:10px}
-.contact-info>p{color:var(--t2);margin-bottom:26px}
-.contact-methods{display:flex;flex-direction:column;gap:12px}
-.contact-method{display:flex;align-items:center;gap:14px;padding:16px;background:var(--card);border:2px solid var(--bdr);border-radius:var(--r);transition:all .3s;color:inherit}
-.contact-method:hover{border-color:var(--accent)}
-.method-icon{font-size:1.4rem}
-.contact-method div{font-size:.9rem;color:var(--t2)}
-.contact-method strong{display:block;color:var(--text);margin-bottom:2px}
-.contact-form{background:var(--card);border:2px solid var(--bdr);border-radius:var(--r2);padding:32px;box-shadow:var(--sh)}
-.contact-form h3{font-size:1.3rem;font-weight:800;margin-bottom:20px}
-.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.form-group{margin-bottom:16px}
-.form-group label{display:block;font-size:.82rem;font-weight:700;color:var(--t2);margin-bottom:5px}
-.form-group input,.form-group select,.form-group textarea{width:100%;padding:12px 16px;background:var(--bg2);border:2px solid var(--bdr);border-radius:10px;color:var(--text);font-family:inherit;font-size:.9rem;transition:border-color .2s}
-.form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:0;border-color:var(--accent)}
-.form-group textarea{resize:vertical}
-.form-note{text-align:center;font-size:.82rem;margin-top:10px;font-weight:600}
-.form-note.success{color:var(--accent)}
-.footer{background:var(--text);color:rgba(255,255,255,.65);padding:56px 0 28px}
-.footer .logo-text{color:#fff}
-.footer .logo-accent{color:var(--accent)}
-.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:36px;margin-bottom:40px}
-.footer-brand p{font-size:.85rem;margin-top:8px;max-width:240px}
-.footer-links h4,.footer-contact h4{font-size:.8rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px;color:rgba(255,255,255,.4)}
-.footer-links a{display:block;font-size:.85rem;padding:4px 0;opacity:.6;transition:opacity .2s}
-.footer-links a:hover{opacity:1}
-.footer-contact p{font-size:.85rem;margin-bottom:6px}
-.footer-bottom{padding-top:20px;border-top:1px solid rgba(255,255,255,.08);text-align:center;opacity:.4;font-size:.82rem}
-@media(max-width:968px){.services-grid{grid-template-columns:repeat(2,1fr)}.testimonial-grid{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:768px){.nav-links,.btn-nav{display:none}.mobile-toggle{display:flex}.nav-links.active{display:flex;flex-direction:column;position:absolute;top:70px;left:0;right:0;background:var(--bg);border-bottom:2px solid var(--bdr);padding:20px;gap:14px}.services-grid{grid-template-columns:1fr}.hero{padding:100px 0 60px}.hero-cta{flex-direction:column}.form-row{grid-template-columns:1fr}.contact-form{padding:24px}.footer-grid{grid-template-columns:1fr}.about-features{grid-template-columns:1fr}}
-@media(max-width:480px){section{padding:60px 0}.section-header h2{font-size:1.8rem}.hero-title{font-size:2.2rem}}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawtricia's Dog Grooming — Barrie, ON</title>
+    <meta name="description" content="Pawtricia's Dog Grooming — All breeds & cats welcome in Barrie, ON. 15+ years of fear-free grooming. Full groom, bath & brush, nail trim, puppy intro, cat grooming, de-shedding.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --cream: #FFF8F0;
+            --cream-dark: #F5E6D8;
+            --coral: #E8775A;
+            --coral-dark: #D15D3F;
+            --coral-light: #F09075;
+            --coral-pale: #FFF0EC;
+            --text: #2C3E50;
+            --text-light: #5A6C7D;
+            --text-muted: #8899AA;
+            --white: #FFFFFF;
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 20px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 40px rgba(0,0,0,0.10);
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --transition: 0.25s ease;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--cream);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        /* NAVIGATION */
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255,248,240,0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(232,119,90,0.12);
+            transition: var(--transition);
+        }
+        .nav.scrolled {
+            box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+        }
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 14px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--coral-dark);
+        }
+        .nav-logo i {
+            font-size: 1.6rem;
+            color: var(--coral);
+        }
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+            align-items: center;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: var(--transition);
+            position: relative;
+        }
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--coral);
+            border-radius: 2px;
+            transition: width 0.25s ease;
+        }
+        .nav-links a:hover { color: var(--coral); }
+        .nav-links a:hover::after { width: 100%; }
+        .nav-cta {
+            background: var(--coral);
+            color: #fff !important;
+            padding: 10px 22px;
+            border-radius: 50px;
+            font-weight: 600 !important;
+            transition: var(--transition);
+        }
+        .nav-cta:hover {
+            background: var(--coral-dark);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 16px rgba(232,119,90,0.35);
+        }
+        .nav-cta::after { display: none !important; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--coral);
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        /* HERO */
+        .hero {
+            position: relative;
+            height: 100vh;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: #3a2a1a;
+        }
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background: url('https://images.unsplash.com/photo-1541369928985-8d2b3e19b112?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+            filter: brightness(0.55);
+            transform: scale(1.05);
+            animation: heroZoom 20s ease-in-out infinite alternate;
+        }
+        @keyframes heroZoom {
+            from { transform: scale(1.05); }
+            to { transform: scale(1.12); }
+        }
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(44,62,80,0.5) 0%, rgba(232,119,90,0.25) 50%, rgba(44,62,80,0.45) 100%);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            color: #fff;
+            max-width: 750px;
+            padding: 0 24px;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(6px);
+            border: 1px solid rgba(255,255,255,0.25);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            margin-bottom: 24px;
+        }
+        .hero-badge i { margin-right: 6px; color: var(--coral-light); }
+        .hero-content h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.6rem, 6vw, 4.5rem);
+            font-weight: 800;
+            line-height: 1.15;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+        }
+        .hero-content h1 span {
+            color: var(--coral-light);
+            display: block;
+            font-family: 'Caveat', cursive;
+            font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+            font-weight: 500;
+            margin-top: 4px;
+        }
+        .hero-content p {
+            font-size: 1.15rem;
+            opacity: 0.9;
+            margin-bottom: 32px;
+            max-width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+        }
+        .btn-primary {
+            background: var(--coral);
+            color: #fff;
+            box-shadow: 0 4px 20px rgba(232,119,90,0.4);
+        }
+        .btn-primary:hover {
+            background: var(--coral-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 28px rgba(232,119,90,0.5);
+        }
+        .btn-outline {
+            background: transparent;
+            color: #fff;
+            border: 2px solid rgba(255,255,255,0.7);
+        }
+        .btn-outline:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: #fff;
+            transform: translateY(-2px);
+        }
+        .hero-scroll {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            animation: bounceDown 2s infinite;
+        }
+        .hero-scroll a {
+            color: rgba(255,255,255,0.7);
+            font-size: 1.6rem;
+            text-decoration: none;
+        }
+        @keyframes bounceDown {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(10px); }
+        }
+
+        /* SECTION COMMON */
+        section { padding: 90px 24px; }
+        .section-inner { max-width: 1100px; margin: 0 auto; }
+        .section-label {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            color: var(--coral);
+            margin-bottom: 8px;
+        }
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            max-width: 600px;
+            margin-bottom: 48px;
+        }
+        .text-center { text-align: center; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
+
+        /* SERVICES */
+        #services {
+            background: var(--white);
+            position: relative;
+        }
+        #services::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, var(--coral), var(--coral-light), var(--coral-pale));
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 28px;
+        }
+        .service-card {
+            background: var(--cream);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+        }
+        .service-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+        }
+        .service-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+        }
+        .service-body {
+            padding: 24px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .service-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--coral-pale);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+            color: var(--coral);
+        }
+        .service-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 8px;
+        }
+        .service-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            flex: 1;
+        }
+        .service-price {
+            display: inline-block;
+            margin-top: 12px;
+            font-weight: 700;
+            color: var(--coral);
+            font-size: 1.05rem;
+        }
+
+        /* ABOUT */
+        #about {
+            background: var(--cream);
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        .about-image-wrapper {
+            position: relative;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+        .about-image-wrapper::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border: 3px solid var(--coral);
+            border-radius: var(--radius-lg);
+            transform: translate(16px, 16px);
+            z-index: -1;
+            opacity: 0.3;
+        }
+        .about-image-wrapper img {
+            width: 100%;
+            height: 460px;
+            object-fit: cover;
+            display: block;
+            border-radius: var(--radius-lg);
+        }
+        .about-badge {
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            background: var(--coral);
+            color: #fff;
+            padding: 16px 24px;
+            border-radius: var(--radius-md);
+            font-weight: 700;
+            font-size: 0.95rem;
+            box-shadow: var(--shadow-md);
+        }
+        .about-badge i { margin-right: 6px; }
+        .about-features {
+            list-style: none;
+            display: grid;
+            gap: 14px;
+            margin-top: 24px;
+        }
+        .about-features li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-size: 1rem;
+            color: var(--text);
+        }
+        .about-features li i {
+            color: var(--coral);
+            font-size: 1.15rem;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        /* REVIEWS */
+        #reviews {
+            background: var(--coral-pale);
+        }
+        .reviews-rating {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--text);
+        }
+        .reviews-stars {
+            color: #F4A460;
+            font-size: 1.4rem;
+        }
+        .reviews-count {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+        .testimonial-card {
+            background: var(--white);
+            border-radius: var(--radius-md);
+            padding: 28px;
+            box-shadow: var(--shadow-sm);
+            position: relative;
+            transition: var(--transition);
+        }
+        .testimonial-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-3px);
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            position: absolute;
+            top: 12px;
+            left: 20px;
+            font-family: 'Playfair Display', serif;
+            font-size: 4rem;
+            color: var(--coral);
+            opacity: 0.15;
+            line-height: 1;
+        }
+        .testimonial-stars {
+            color: #F4A460;
+            font-size: 1rem;
+            margin-bottom: 12px;
+        }
+        .testimonial-text {
+            font-style: italic;
+            color: var(--text);
+            font-size: 0.98rem;
+            margin-bottom: 16px;
+            position: relative;
+            z-index: 1;
+        }
+        .testimonial-author {
+            font-weight: 700;
+            color: var(--coral-dark);
+            font-size: 0.9rem;
+        }
+        .testimonial-pet {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+        /* CONTACT */
+        #contact {
+            background: var(--white);
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 50px;
+            align-items: start;
+        }
+        .contact-info-card {
+            background: var(--cream);
+            border-radius: var(--radius-md);
+            padding: 36px;
+            box-shadow: var(--shadow-sm);
+        }
+        .contact-info-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--text);
+        }
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            margin-bottom: 18px;
+        }
+        .contact-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--coral-pale);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            color: var(--coral);
+            font-size: 1.1rem;
+        }
+        .contact-item strong {
+            display: block;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            margin-bottom: 2px;
+        }
+        .contact-item span, .contact-item a {
+            font-size: 1rem;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .contact-item a:hover { color: var(--coral); }
+        .contact-form {
+            background: var(--cream);
+            border-radius: var(--radius-md);
+            padding: 36px;
+            box-shadow: var(--shadow-sm);
+        }
+        .contact-form h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--text);
+        }
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        .form-group { margin-bottom: 16px; }
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text);
+            margin-bottom: 6px;
+        }
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid var(--cream-dark);
+            border-radius: var(--radius-sm);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            color: var(--text);
+            background: var(--white);
+            transition: var(--transition);
+            outline: none;
+        }
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: var(--coral);
+            box-shadow: 0 0 0 3px rgba(232,119,90,0.12);
+        }
+        .form-group textarea { resize: vertical; min-height: 120px; }
+        .form-submit {
+            width: 100%;
+            padding: 14px;
+            background: var(--coral);
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: var(--transition);
+            font-family: 'Inter', sans-serif;
+        }
+        .form-submit:hover {
+            background: var(--coral-dark);
+            box-shadow: 0 4px 20px rgba(232,119,90,0.35);
+        }
+
+        /* MAP / LOCATION */
+        .map-placeholder {
+            width: 100%;
+            height: 250px;
+            background: var(--cream-dark);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* FOOTER */
+        .footer {
+            background: var(--text);
+            color: rgba(255,255,255,0.7);
+            padding: 40px 24px 30px;
+            text-align: center;
+        }
+        .footer-inner { max-width: 1100px; margin: 0 auto; }
+        .footer p { font-size: 0.9rem; }
+        .footer-brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .footer i.fa-heart { color: var(--coral-light); }
+
+        /* RESPONSIVE */
+        @media (max-width: 900px) {
+            .nav-links { display: none; }
+            .nav-links.open {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(255,248,240,0.98);
+                backdrop-filter: blur(12px);
+                padding: 20px 24px;
+                gap: 16px;
+                border-bottom: 2px solid var(--coral-pale);
+                box-shadow: var(--shadow-md);
+            }
+            .nav-toggle { display: block; }
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .about-image-wrapper img { height: 340px; }
+            .contact-grid { grid-template-columns: 1fr; gap: 32px; }
+            .form-row { grid-template-columns: 1fr; }
+            .services-grid { grid-template-columns: 1fr; max-width: 450px; margin: 0 auto; }
+            section { padding: 60px 20px; }
+        }
+
+        @media (max-width: 480px) {
+            .hero-content h1 { font-size: 2rem; }
+            .hero-content p { font-size: 1rem; }
+            .hero-buttons { flex-direction: column; align-items: center; }
+            .btn { width: 100%; justify-content: center; }
+            .testimonials-grid { grid-template-columns: 1fr; }
+        }
+    </style>
 </head>
 <body>
+
+<!-- NAVIGATION -->
 <nav class="nav" id="nav">
-<div class="container nav-inner">
-<a href="#" class="logo"><span class="logo-icon"><i class="fa-solid fa-paw"></i></span><span class="logo-text">Pawtricia's<span class="logo-accent">Grooming</span></span></a>
-<ul class="nav-links"><li><a href="#home">Home</a></li><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul>
-<a href="tel:+141****5300" class="btn btn-nav"><i class="fa-solid fa-phone"></i> (416) 857-5300</a>
-<button class="mobile-toggle" id="mobileToggle"><span></span><span></span><span></span></button>
-</div>
+    <div class="nav-inner">
+        <a href="#" class="nav-logo">
+            <i class="fa-solid fa-paw"></i> Pawtricia's
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact" class="nav-cta">Book Now</a></li>
+        </ul>
+    </div>
 </nav>
 
-<section class="hero" id="home">
-<div class="container hero-content">
-<span class="hero-badge"><span><i class="fa-solid fa-cat"></i><i class="fa-solid fa-dog"></i></span> All Breeds & Cats Welcome!</span>
-<h1 class="hero-title">Your Fur Baby Is in <br><span class="text-accent">the Best Hands.</span></h1>
-<p class="hero-subtitle">Over 15 years of loving grooms. Home-based salon in Barrie where every pet gets one-on-one attention — no cages, no chaos, just calm care.</p>
-<div class="hero-cta">
-<a href="tel:+141****5300" class="btn btn-primary btn-lg"><i class="fa-solid fa-phone"></i> Book Now</a>
-<a href="#contact" class="btn btn-outline btn-lg">Get a Quote</a>
-</div>
-<div class="hero-stats">
-<div class="stat"><span class="stat-number">15+</span><span class="stat-label">Years</span></div>
-<div class="stat"><span class="stat-number">4.9★</span><span class="stat-label">104+ Reviews</span></div>
-<div class="stat"><span class="stat-number"><i class="fa-solid fa-cat"></i>+<i class="fa-solid fa-dog"></i></span><span class="stat-label">Dogs & Cats</span></div>
-</div>
-</div>
+<!-- HERO -->
+<section class="hero" id="hero">
+    <div class="hero-bg" role="img" aria-label="Well-groomed dog"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <div class="hero-badge">
+            <i class="fa-solid fa-star"></i> 4.9 ★ — Trusted by Barrie pet parents
+        </div>
+        <h1>
+            Where Every Pet<br>Leaves Feeling Fabulous
+            <span>All Breeds &amp; Cats Welcome</span>
+        </h1>
+        <p>Premium fear-free grooming in Barrie, Ontario. 15+ years of experience treating your furry family like our own.</p>
+        <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">
+                <i class="fa-solid fa-calendar-check"></i> Book an Appointment
+            </a>
+            <a href="#services" class="btn btn-outline">
+                <i class="fa-solid fa-scissors"></i> Our Services
+            </a>
+        </div>
+    </div>
+    <div class="hero-scroll">
+        <a href="#services" aria-label="Scroll to services"><i class="fa-solid fa-chevron-down"></i></a>
+    </div>
 </section>
 
-<section class="cats">
-<div class="container cats-inner">
-<h2><i class="fa-solid fa-cat"></i> Yes, We Groom Cats!</h2>
-<p>Lion cuts, sanitary trims, de-shedding, nail caps — gentle, stress-free feline grooming.</p>
-</div>
+<!-- SERVICES -->
+<section id="services">
+    <div class="section-inner">
+        <div class="text-center">
+            <p class="section-label">What We Offer</p>
+            <h2 class="section-title">Grooming Services</h2>
+            <p class="section-subtitle mx-auto">From a quick nail trim to a full spa day — every service is tailored to your pet's comfort and breed.</p>
+        </div>
+        <div class="services-grid">
+
+            <div class="service-card">
+                <img class="service-img" src="https://images.unsplash.com/photo-1543466835-740a4f4a5a49?auto=format&fit=crop&w=600&q=80" alt="Full groom service" loading="lazy">
+                <div class="service-body">
+                    <div class="service-icon"><i class="fa-solid fa-scissors"></i></div>
+                    <h3>Full Groom</h3>
+                    <p>A complete head-to-tail pampering. Includes bath, blow-dry, haircut styled to breed or preference, nail trim, ear cleaning, and a finishing spritz.</p>
+                    <span class="service-price">Starting at $65</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img class="service-img" src="https://images.unsplash.com/photo-1559190394-4b9f6a3ea3c8?auto=format&fit=crop&w=600&q=80" alt="Bath and brush" loading="lazy">
+                <div class="service-body">
+                    <div class="service-icon"><i class="fa-solid fa-shower"></i></div>
+                    <h3>Bath &amp; Brush</h3>
+                    <p>A refreshing bath with premium, pet-safe shampoo followed by a thorough brush-out to remove loose fur and leave the coat soft and shiny.</p>
+                    <span class="service-price">Starting at $35</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img class="service-img" src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=600&q=80" alt="Nail trim" loading="lazy">
+                <div class="service-body">
+                    <div class="service-icon"><i class="fa-solid fa-hand-sparkles"></i></div>
+                    <h3>Nail Trim</h3>
+                    <p>Gentle, precise nail trimming with a calm approach. We take extra care with nervous pets — no rush, no stress, just healthy paws.</p>
+                    <span class="service-price">Starting at $15</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img class="service-img" src="https://images.unsplash.com/photo-1605559424843-9e4c966ced5c?auto=format&fit=crop&w=600&q=80" alt="Puppy introduction" loading="lazy">
+                <div class="service-body">
+                    <div class="service-icon"><i class="fa-solid fa-heart"></i></div>
+                    <h3>Puppy Intro</h3>
+                    <p>A gentle first grooming experience for puppies under 6 months. We introduce brushes, water, and sounds slowly so your pup builds positive associations for life.</p>
+                    <span class="service-price">Starting at $30</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img class="service-img" src="https://images.unsplash.com/photo-1574158482683-e40f6cd4575a?auto=format&fit=crop&w=600&q=80" alt="Cat grooming" loading="lazy">
+                <div class="service-body">
+                    <div class="service-icon"><i class="fa-solid fa-cat"></i></div>
+                    <h3>Cat Grooming</h3>
+                    <p>Specialized feline grooming with patience and expertise. Bath, brush, sanitary trim, and nail caps available. We speak "cat" — seriously.</p>
+                    <span class="service-price">Starting at $45</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <img class="service-img" src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=600&q=80" alt="De-shedding treatment" loading="lazy">
+                <div class="service-body">
+                    <div class="service-icon"><i class="fa-solid fa-wind"></i></div>
+                    <h3>De-shedding</h3>
+                    <p>Targeted treatment for heavy shedders. Our de-shedding process removes loose undercoat, reduces shedding by up to 80%, and keeps your home fur-free longer.</p>
+                    <span class="service-price">Starting at $40</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </section>
 
-<section class="services" id="services">
-<div class="container">
-<div class="section-header"><span class="section-badge">Services</span><h2>Grooming for Every Pet</h2><p>From Great Danes to Persians — tailored care for every coat, temperament, and need.</p></div>
-<div class="services-grid">
-<div class="service-card"><div class="service-icon"><i class="fa-solid fa-scissors"></i></div><h3>Full Groom</h3><p>Bath, haircut, nail trim, ear cleaning — the complete package. Breed-specific styling.</p></div>
-<div class="service-card"><div class="service-icon"><i class="fa-solid fa-bath"></i></div><h3>Bath & Brush</h3><p>Shampoo, conditioner, blow-dry, thorough de-shedding. Perfect between full grooms.</p></div>
-<div class="service-card"><div class="service-icon"><i class="fa-solid fa-cat"></i></div><h3>Cat Grooming</h3><p>Gentle handling for lion cuts, sanitary trims, de-shedding. Stress-free for your feline.</p></div>
-<div class="service-card"><div class="service-icon">💅</div><h3>Nail Trim</h3><p>Quick, gentle clipping & filing for dogs and cats. Walk-ins welcome.</p></div>
-<div class="service-card"><div class="service-icon">🦷</div><h3>Teeth Brushing</h3><p>Fresh breath, healthy gums. Add to any service.</p></div>
-<div class="service-card"><div class="service-icon">🎀</div><h3>Puppy & Kitten Intro</h3><p>Gentle first grooms. We go slow, use treats, and make it a happy experience.</p></div>
-</div>
-</div>
+<!-- ABOUT -->
+<section id="about">
+    <div class="section-inner">
+        <div class="about-grid">
+            <div class="about-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1601758125946-6b7e30eb16e4?auto=format&fit=crop&w=700&q=80" alt="Professional groomer with a happy dog" loading="lazy">
+                <div class="about-badge">
+                    <i class="fa-solid fa-certificate"></i> 15+ Years Experience
+                </div>
+            </div>
+            <div>
+                <p class="section-label">Meet Pawtricia</p>
+                <h2 class="section-title">Caring Hands,<br>Happy Pets</h2>
+                <p class="section-subtitle" style="margin-bottom:20px">
+                    With over 15 years of professional grooming experience, Pawtricia has worked with every breed — from tiny Chihuahuas to giant Newfoundlands — and yes, plenty of cats too. Her philosophy is simple: <strong>every pet deserves patience, kindness, and a stress-free experience.</strong>
+                </p>
+                <p style="color:var(--text-light);margin-bottom:20px">
+                    She's certified in fear-free handling techniques and stays current with the latest grooming methods. Whether your pet is a grooming veteran or a nervous first-timer, they're in the safest hands in Barrie.
+                </p>
+                <ul class="about-features">
+                    <li><i class="fa-solid fa-circle-check"></i> <span><strong>All breeds &amp; cats welcome</strong> — no pet turned away</span></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <span><strong>Fear-free certified</strong> — gentle, low-stress handling</span></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <span><strong>Premium products</strong> — hypoallergenic &amp; pet-safe</span></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <span><strong>One-on-one attention</strong> — never rushed, always loved</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="about" id="about">
-<div class="container"><div class="about-grid">
-<div class="about-content">
-<span class="section-badge">About Pawtricia</span><h2>15 Years of <span class="text-accent">Loving Grooms.</span></h2>
-<p>Pawtricia's isn't a big-box salon — <strong>it's a calm, quiet home-based studio</strong> where your pet gets undivided attention. No cages, no chaos, no rush.</p>
-<p>With over 15 years grooming all breeds AND cats, Pawtricia has seen it all — from anxious rescues to show-dog perfection. Every groom is customized. Every pet is treated like family.</p>
-<div class="about-features">
-<div class="feature"><i class="fa-solid fa-paw"></i> 15+ Years</div><div class="feature"><i class="fa-solid fa-cat"></i> Cats Welcome</div>
-<div class="feature"><i class="fa-solid fa-house"></i> Home-Based</div><div class="feature"><i class="fa-solid fa-star"></i> 4.9★ Rated</div>
-</div>
-</div>
-<div class="about-image"><div class="about-placeholder"><i class="fa-solid fa-dog"></i>🐈</div></div>
-</div></div>
+<!-- REVIEWS -->
+<section id="reviews">
+    <div class="section-inner">
+        <div class="text-center">
+            <p class="section-label">What Pet Parents Say</p>
+            <h2 class="section-title">Loved by Pets &amp; People</h2>
+            <div class="reviews-rating">
+                4.9 <span class="reviews-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+            </div>
+            <p class="reviews-count">Based on 120+ reviews from happy clients across Barrie</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p class="testimonial-text">"Pawtricia is a miracle worker! My golden retriever, Buddy, has never looked better — and he actually *loves* going to see her. The fear-free approach makes all the difference."</p>
+                <p class="testimonial-author">Sarah M.</p>
+                <p class="testimonial-pet">Buddy — Golden Retriever</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p class="testimonial-text">"I was nervous about getting my long-haired cat groomed, but Pawtricia handled Luna with such care and patience. Came back soft, mat-free, and totally relaxed. Highly recommend!"</p>
+                <p class="testimonial-author">James K.</p>
+                <p class="testimonial-pet">Luna — Maine Coon</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p class="testimonial-text">"Our nervous rescue pup had a tough time at other groomers. Pawtricia took the time to build trust, and now Coco trots in tail-wagging. The puppy intro program is brilliant."</p>
+                <p class="testimonial-author">Emily &amp; Dan R.</p>
+                <p class="testimonial-pet">Coco — Rescue Mix</p>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="testimonials">
-<div class="container">
-<div class="section-header"><span class="section-badge">Reviews</span><h2>104+ Happy Pet Parents</h2></div>
-<div class="testimonial-grid">
-<div class="testimonial-card"><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>"Pawtricia is amazing with my anxious Shepherd. Patient, kind, and he always looks perfect. The home studio is so much calmer."</p><div class="testimonial-author">— GSD Mom, Barrie</div></div>
-<div class="testimonial-card"><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>"Finally a groomer who does cats! My Persian gets a lion cut and Pawtricia handles her so gently."</p><div class="testimonial-author">— Cat Parent, Barrie</div></div>
-<div class="testimonial-card"><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div><p>"Been bringing both my Shih Tzu and Doodle for years. Consistent quality, fair prices, genuine love for animals."</p><div class="testimonial-author">— Loyal Client</div></div>
-</div>
-</div>
+<!-- CONTACT -->
+<section id="contact">
+    <div class="section-inner">
+        <div class="text-center">
+            <p class="section-label">Get in Touch</p>
+            <h2 class="section-title">Book Your Pet's Spa Day</h2>
+            <p class="section-subtitle mx-auto">Ready for a happier, cleaner, fluffier pet? Reach out and let's get your furry friend on the schedule.</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info-card">
+                <h3>Contact &amp; Hours</h3>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div>
+                        <strong>Phone</strong>
+                        <a href="tel:+14168575300">(416) 857-5300</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div>
+                        <strong>Email</strong>
+                        <a href="mailto:pawtricias.dog.grooming@gmail.com">pawtricias.dog.grooming@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <strong>Location</strong>
+                        <span>Barrie, Ontario</span>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                    <div>
+                        <strong>Hours</strong>
+                        <span>Mon–Fri: 9 AM – 5 PM<br>Sat: 9 AM – 3 PM<br>Sun: Closed</span>
+                    </div>
+                </div>
+                <div class="map-placeholder">
+                    <i class="fa-solid fa-map-pin"></i>&nbsp; Serving Barrie &amp; surrounding areas
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form action="#" method="POST" onsubmit="handleSubmit(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(705) 555-0123">
+                        </div>
+                        <div class="form-group">
+                            <label for="pet">Pet Name &amp; Breed</label>
+                            <input type="text" id="pet" name="pet" placeholder="Buddy — Golden Retriever">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service...</option>
+                            <option value="Full Groom">Full Groom</option>
+                            <option value="Bath & Brush">Bath &amp; Brush</option>
+                            <option value="Nail Trim">Nail Trim</option>
+                            <option value="Puppy Intro">Puppy Intro</option>
+                            <option value="Cat Grooming">Cat Grooming</option>
+                            <option value="De-shedding">De-shedding</option>
+                            <option value="Other">Other / Not Sure</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your pet and any special needs..."></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">
+                        <i class="fa-solid fa-paper-plane"></i>&nbsp; Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="contact" id="contact">
-<div class="container"><div class="contact-grid">
-<div class="contact-info">
-<span class="section-badge">Book Now</span><h2>Let's Get Your Pet Looking Fabulous.</h2><p>Call or email to schedule. Home-based studio — appointments required.</p>
-<div class="contact-methods">
-<a href="tel:+141****5300" class="contact-method"><span class="method-icon"><i class="fa-solid fa-phone"></i></span><div><strong>Call</strong><br>(416) 857-5300</div></a>
-<a href="mailto:pawtricias.dog.grooming@gmail.com" class="contact-method"><span class="method-icon"><i class="fa-solid fa-envelope"></i></span><div><strong>Email</strong><br>pawtricias.dog.grooming@gmail.com</div></a>
-<div class="contact-method"><span class="method-icon"><i class="fa-solid fa-location-dot"></i></span><div><strong>Studio</strong><br>56 Nicole Marie Ave, Barrie</div></div>
-<div class="contact-method"><span class="method-icon"><i class="fa-solid fa-clock"></i></span><div><strong>Hours</strong><br>By Appointment</div></div>
-</div>
-</div>
-<div class="contact-form-wrapper">
-<form class="contact-form" id="contactForm"><h3>Request Appointment</h3>
-<div class="form-row"><div class="form-group"><label for="name">Your Name *</label><input type="text" id="name" required placeholder="Jane"></div><div class="form-group"><label for="phone">Phone *</label><input type="tel" id="phone" required placeholder="(705) 555-0123"></div></div>
-<div class="form-group"><label for="pet">Pet's Name & Breed</label><input type="text" id="pet" placeholder="Luna — Persian Cat"></div>
-<div class="form-group"><label for="svc">Service</label><select id="svc"><option value="">Select...</option><option>Full Groom</option><option>Bath & Brush</option><option>Cat Grooming</option><option>Nail Trim</option><option>Puppy/Kitten Intro</option><option>Other</option></select></div>
-<div class="form-group"><label for="msg">Special Notes</label><textarea id="msg" rows="2" placeholder="Any requests or concerns..."></textarea></div>
-<button type="submit" class="btn btn-primary btn-lg btn-full">Request Booking →</button>
-<p class="form-note" id="formStatus"></p></form>
-</div>
-</div></div>
-</section>
-
+<!-- FOOTER -->
 <footer class="footer">
-<div class="container">
-<div class="footer-grid">
-<div class="footer-brand"><span class="logo-text">Pawtricia's<span class="logo-accent">Grooming</span></span><p>All breeds. Cats too. 15+ years of loving grooms in Barrie, ON.</p></div>
-<div class="footer-links"><h4>Links</h4><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></div>
-<div class="footer-contact"><h4>Contact</h4><p><i class="fa-solid fa-phone"></i> (416) 857-5300</p><p><i class="fa-solid fa-envelope"></i> pawtricias.dog.grooming@gmail.com</p><p><i class="fa-solid fa-location-dot"></i> 56 Nicole Marie Ave, Barrie</p></div>
-</div>
-<div class="footer-bottom">&copy; 2025 Pawtricia's Dog Grooming.</div>
-</div>
+    <div class="footer-inner">
+        <p class="footer-brand"><i class="fa-solid fa-paw"></i> Pawtricia's Dog Grooming</p>
+        <p>Barrie, Ontario &nbsp;|&nbsp; <a href="tel:+14168575300" style="color:var(--coral-light);text-decoration:none;">(416) 857-5300</a></p>
+        <p style="margin-top:12px;">Made with <i class="fa-solid fa-heart"></i> for Barrie's best pets &copy; 2026</p>
+    </div>
 </footer>
-<script>document.getElementById('mobileToggle')?.addEventListener('click',()=>{document.querySelector('.nav-links').classList.toggle('active')});document.querySelectorAll('.nav-links a').forEach(l=>l.addEventListener('click',()=>document.querySelector('.nav-links').classList.remove('active')));window.addEventListener('scroll',()=>document.getElementById('nav').classList.toggle('scrolled',window.scrollY>100));document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',function(e){const h=this.getAttribute('href');if(h==='#')return;const t=document.querySelector(h);if(t){e.preventDefault();const o=70,p=t.getBoundingClientRect().top+window.pageYOffset-o;window.scrollTo({top:p,behavior:'smooth'})}}));document.getElementById('contactForm')?.addEventListener('submit',async e=>{e.preventDefault();document.getElementById('formStatus').textContent='<i class="fa-solid fa-check"></i> Thank you! We\'ll be in touch!';document.getElementById('formStatus').className='form-note success';document.getElementById('contactForm').reset()});</script>
+
+<script>
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('open');
+        const icon = navToggle.querySelector('i');
+        icon.classList.toggle('fa-bars');
+        icon.classList.toggle('fa-xmark');
+    });
+
+    // Close mobile nav on link click
+    navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('open');
+            const icon = navToggle.querySelector('i');
+            icon.classList.add('fa-bars');
+            icon.classList.remove('fa-xmark');
+        });
+    });
+
+    // Nav shadow on scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
+    });
+
+    // Form submission
+    function handleSubmit(e) {
+        e.preventDefault();
+        const btn = e.target.querySelector('.form-submit');
+        const originalHTML = btn.innerHTML;
+        btn.innerHTML = '<i class="fa-solid fa-circle-check"></i>&nbsp; Message Sent!';
+        btn.style.background = '#2ecc71';
+        setTimeout(() => {
+            btn.innerHTML = originalHTML;
+            btn.style.background = '';
+            e.target.reset();
+        }, 3000);
+    }
+</script>
+
 </body>
 </html>
